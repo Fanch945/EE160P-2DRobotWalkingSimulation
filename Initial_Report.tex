@@ -1,4 +1,5 @@
 documentclass[12pt, a4paper]{article}
+
 \usepackage{answers}
 \usepackage{graphicx}
 \usepackage{color}
@@ -20,7 +21,71 @@ documentclass[12pt, a4paper]{article}
 \usepackage{algpseudocode}
 \usepackage{enumerate}
 
-\pagestyle{headandfoot}
-\runningheader{SIST, ShanghaiTech University}{}{Signals and Systems Lab}
-\firstpagefooter{EE150L}{Page \thepage\ (total \numpages\ pages)}{2024 Spring}
-\runningfooter{EE150L}{Page \thepage\ (total \numpages\ pages)}{2024 Spring}
+\topmargin=-0.45in
+\evensidemargin=0in
+\oddsidemargin=0in
+\textwidth=6.5in
+\textheight=9.0in
+\headsep=0.25in
+
+\linespread{1.1}
+
+\pagestyle{fancy}
+\lhead{\rpAuthorName}
+\chead{\rpClass : \rpTitle}
+\rhead{\firstxmark}
+\lfoot{\lastxmark}
+\cfoot{\thepage}
+
+\renewcommand\headrulewidth{0.4pt}
+\renewcommand\footrulewidth{0.4pt}
+
+\setlength\parindent{0pt}
+
+
+\setcounter{secnumdepth}{0}
+\newcounter{partCounter}
+\newcounter{homeworkProblemCounter}
+\setcounter{homeworkProblemCounter}{1}
+\nobreak\extramarks{Problem \arabic{homeworkProblemCounter}}{}\nobreak{}
+
+
+
+
+
+
+\newcommand{\rpTitle}{Initial Report}
+\newcommand{\rpClass}{EE160P - Project}
+\newcommand{\rpAuthorName}{Chenhao Fan}
+\newcommand{\rpAuthorID}{2022531027}
+
+
+\title{
+    \vspace{2in}
+    \textmd{\textbf{\rpClass:\\  \rpTitle}}\\
+    \normalsize\vspace{0.1in}\small{Due\ on\ \rpDueDate\ at 23:59}\\
+	\vspace{4in}
+}
+
+\author{
+	Name: \textbf{\rpAuthorName} \\
+	Student ID: \rpAuthorID}
+\date{}
+
+\renewcommand{\part}[1]{\textbf{\large Part \Alph{partCounter}}\stepcounter{partCounter}\\}
+
+
+\begin{document}
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
